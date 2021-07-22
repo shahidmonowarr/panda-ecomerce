@@ -9,4 +9,12 @@
     width: 1212px;
     margin: auto;
 }
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
 
+/* image slider */
+.sliding-image{
+    background-color: #FEEAE9;
+}
