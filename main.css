@@ -12,9 +12,20 @@
 h1{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
+    font-size: 60px;
+    color: 
+    #1F1F1F;
 }
 
 /* image slider */
 .sliding-image{
     background-color: #FEEAE9;
+}
+
+/* categories */
+.categories h1{
+    font-size: 36px;
+}
+.categories img{
+    width: 68px;
 }
