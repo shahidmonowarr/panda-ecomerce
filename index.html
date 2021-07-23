@@ -16,7 +16,7 @@
     <!-- header  start -->
     <header>
         <!-- navigation -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar  navbar-expand-lg navbar-light bg-light">
             <div class="container">
                 <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
@@ -36,15 +36,15 @@
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="#">Tv</a></li>
                                 <li><a class="dropdown-item" href="#">Watch</a></li>
-                                <li><a class="dropdown-item" href="#">Shoes</a></li>
-                                <li><a class="dropdown-item" href="#">Backpack</a></li>
+                                <li><a class="dropdown-item" href="#shoes">Shoes</a></li>
+                                <li><a class="dropdown-item" href="#backpack">Backpack</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
+                            <a class="nav-link" href="#subscribe">Subscribe Us</a>
                         </li>
                     </ul>
                     <form class="d-flex">
@@ -55,11 +55,11 @@
             </div>
         </nav>
         <!-- image slider -->
-        <section class="container mt-5">
+        <section class="container ">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <div class="row sliding-image p-5 d-flex align-items-center">
+                        <div class="row mt-5 sliding-image p-5 d-flex align-items-center">
                             <div class="col-lg-7">
                                 <h1>Cool Dude Headphone</h1>
                                 <p>This is the best headphone in the world for people who just want to waste time in
@@ -75,7 +75,7 @@
                         </div>
                     </div>
                     <div class="carousel-item ">
-                        <div class="row sliding-image p-5 d-flex align-items-center">
+                        <div class="row mt-5 sliding-image p-5 d-flex align-items-center">
                             <div class="col-lg-7">
                                 <h1>Mega LCD TV For Sports</h1>
                                 <p>This is the best headphone in the world for people who just want to waste time in
@@ -90,7 +90,7 @@
                         </div>
                     </div>
                     <div class="carousel-item ">
-                        <div class="row sliding-image p-5 d-flex align-items-center">
+                        <div class="row mt-5 sliding-image p-5 d-flex align-items-center">
                             <div class="col-lg-7">
                                 <h1>X-Box for your living room</h1>
                                 <p>This is the best X-Box in the world for people who just want to waste time in
@@ -148,7 +148,7 @@
                 </div>
             </div>
         </section>
-        <section class="container">
+        <section class="container" id="shoes">
             <h2>Shoes</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -195,7 +195,7 @@
                 </div>
             </div>
         </section>
-        <section class="container my-5">
+        <section class="container my-5" id="backpack">
             <h2>Backpack</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -242,10 +242,22 @@
                 </div>
             </div>
         </section>
+
+        <!-- subscribe -->
+        <section style="background-color: #FEEAE9; border-radius: 10px; height: 300px;"
+            class="container d-flex justify-content-center my-5 align-items-center" id="subscribe">
+            <div>
+                <h1>LET'S STAY IN TOUCH</h1>
+                <p>Get updates on sales specials and more</p>
+                <input type="email" name="" id="" placeholder="Your Email">
+                <br>
+                <button class="btn btn-warning">SUBMIT</button>
+            </div>
+        </section>
     </main>
 
-    <footer>
-
+    <footer class="container footer text-center">
+        <p><small>Panda Ecomerce. All rights reserved. Dhaka Bangladesh</small></p>
     </footer>
 
     <!-- bootstrap script -->

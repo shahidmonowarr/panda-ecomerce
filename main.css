@@ -20,6 +20,7 @@ h1{
 /* image slider */
 .sliding-image{
     background-color: #FEEAE9;
+    
 }
 
 /* categories */
@@ -28,4 +29,9 @@ h1{
 }
 .categories img{
     width: 68px;
+}
+
+/* footer */
+.footer{
+    text-align: center;
 }
